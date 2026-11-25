@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym website</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>classic gym</h1>
+            <nav id="navbar">
+        
+            <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="#pricing">pricing</a></li>
+             <li><a href="#contact">contact</a></li>
+            </ul>
+    </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2> Get Fit Today</h2>
+            <p> Strength, cardio and coaching under one roof.</p>
+            <a href="#contact" class="btn">Join Now</a>
+        </div>
+    </section>
+    
+       
+    <section id="pricing">
+        <div class="container">
+            <h2>Our Plans</h2>
+
+            <div class="plan">
+                <h3>Basic</h3>
+                <p class="price">₹1,000 / month</p>
+                <ul>
+                    <li>Gym floor access</li>
+                    <li>Locker room</li>
+                </ul>
+                <a href="#contact" class="btn">Join Now</a>
+            </div>
+
+            <div class="plan">
+                <h3>Standard</h3>
+                <p class="price">₹2,000 / month</p>
+                <ul>
+                    <li>Everything in Basic</li>
+                    <li>Cardio zone</li>
+                    <li>Group classes</li>
+                </ul>
+                <a href="#contact" class="btn">Join Now</a>
+            </div>
+
+            <div class="plan">
+                <h3>Premium</h3>
+                <p class="price">₹3,500 / month</p>
+                <ul>
+                    <li>Everything in Standard</li>
+                    <li>Personal trainer</li>
+                    <li>Diet plan</li>
+                </ul>
+                <a href="#contact" class="btn">Join Now</a>
+            </div>
+        </div>
+    </section>
+   <section id="contact">
+    <div class="container">
+        <div class="contact-layout">
+
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p><strong>Address:</strong> Your gym address, Bibwewadi, Pune</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Hours:</strong> Mon to Sat, 6 AM to 10 PM</p>
+                <a href="tel:+919876543210" class="btn">Call Now</a>
+                <a href="https://chat.whatsapp.com/YOUR_INVITE_CODE" class="btn whatsapp">Join WhatsApp Community</a>
+                <a href="https://www.instagram.com/YOUR_GYM_PAGE" class="btn instagram">Instagram</a>
+            </div>
+
+            <form id="inquiryForm" class="inquiry-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+
+                <label for="plan">Select Plan</label>
+                <select id="plan" name="plan">
+                    <option value="Basic (₹1,000/month)">Basic - ₹1,000 / month</option>
+                    <option value="Standard (₹2,000/month)">Standard - ₹2,000 / month</option>
+                    <option value="Premium (₹3,500/month)">Premium - ₹3,500 / month</option>
+                </select>
+
+                <button type="submit" class="btn">Send on WhatsApp</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+  
+
+
+<script src="js/script.js"></script>    
+</body>
+</html>
